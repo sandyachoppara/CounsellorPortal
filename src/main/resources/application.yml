@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 01-Counselor-Portal
+  datasource:
+    password: Password1
+    url: jdbc:mysql://localhost:3306/jrtp27?serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
