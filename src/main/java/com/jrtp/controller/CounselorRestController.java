@@ -16,6 +16,7 @@ import com.jrtp.entity.Counselor;
 import com.jrtp.service.CounselorService;
 
 @RestController
+@RequestMapping("counsellor")
 @CrossOrigin
 public class CounselorRestController {
 

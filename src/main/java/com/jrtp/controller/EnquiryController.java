@@ -15,7 +15,7 @@ import com.jrtp.service.EnquiryService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 
-//@Controller
+@Controller
 public class EnquiryController {
 
 	EnquiryService enqService;

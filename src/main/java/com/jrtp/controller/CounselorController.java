@@ -13,7 +13,7 @@ import com.jrtp.service.CounselorService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 
-//@Controller
+@Controller
 public class CounselorController {
 
 	CounselorService counselorService;

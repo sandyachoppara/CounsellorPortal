@@ -26,9 +26,12 @@ public class Enquiry{
 	private String mode;
 	private String status;
 	
+	@JsonIgnore
 	@CreationTimestamp
 	@Column(name = "creation_date", updatable = false)
 	private LocalDateTime creationDate;
+	
+	@JsonIgnore
 	@UpdateTimestamp
 	@Column(name = "update_date", insertable = false)
 	private LocalDateTime updateDate;

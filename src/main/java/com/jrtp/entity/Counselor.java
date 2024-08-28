@@ -26,10 +26,13 @@ public class Counselor {
 	
 	private String name;
 	private String email;
+	@JsonIgnore
 	private String password;
+	@JsonIgnore
 	@CreationTimestamp
 	@Column(name = "creation_date", updatable = false)
 	private LocalDateTime creationDate;
+	@JsonIgnore
 	@UpdateTimestamp
 	@Column(name = "update_date", insertable = false)
 	private LocalDateTime updateDate;
